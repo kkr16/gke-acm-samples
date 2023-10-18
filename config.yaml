@@ -3,6 +3,7 @@ kind: ConfigManagement
 metadata:
   name: config-management
 spec:
+  enableMultiRepo: true
   policyController:
     enabled: true
     templateLibraryInstalled: true
