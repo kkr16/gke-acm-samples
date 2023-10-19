@@ -1,10 +1,10 @@
-apiVersion: configmanagement.gke.io/v1
-kind: ConfigManagement
-metadata:
-  name: config-management
-spec:
-  enableMultiRepo: true
-  policyController:
-    enabled: true
-    templateLibraryInstalled: true
+# apiVersion: configmanagement.gke.io/v1
+# kind: ConfigManagement
+# metadata:
+#   name: config-management
+# spec:
+#   enableMultiRepo: true
+#   policyController:
+#     enabled: true
+#     templateLibraryInstalled: true
 
