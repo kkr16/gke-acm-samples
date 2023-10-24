@@ -3,6 +3,7 @@ kind: K8sNoExternalServices
 metadata:
   name: no-internet-services
 spec:
+  enforcementAction: warn
   match:
     namespaces:
       - hello-namespace
